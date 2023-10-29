@@ -20,12 +20,9 @@ const markup = images
 
 listLu.insertAdjacentHTML("beforeend", markup)
 
-const pictures = document.querySelectorAll('.pictures')
 
 listLu.style.display = 'flex';
 listLu.style.flexWrap = 'column-reverse'
 listLu.style.listStyle = 'none'
 listLu.style.gap = '20px'
 listLu.style.justifyContent = 'center'
-
-console.log(listLu);
